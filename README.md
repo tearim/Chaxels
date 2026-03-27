@@ -9,6 +9,46 @@ Chaxels (Character Pixels) is a terminal-based rendering engine for Java that us
 - **Flexible Shapes:** Define complex shapes using `ChaxelString` and `Shape` objects.
 - **Easy-to-use API:** Simplified methods for adding, moving, and removing shapes on a screen.
 
+## Installation
+
+### Maven (JitPack)
+
+Since the repository is JitPack ready, you can add it to your `pom.xml` as a dependency.
+
+First, add the JitPack repository:
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+
+Then, add the dependency:
+
+```xml
+<dependency>
+    <groupId>com.github.Username</groupId>
+    <artifactId>Chaxels</artifactId>
+    <version>v0.10</version>
+</dependency>
+```
+
+### Manual Installation
+
+Alternatively, you can download the source code and include it directly in your project or build it manually:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/tearim/Chaxels.git
+    ```
+2.  **Build with Maven:**
+    ```bash
+    mvn clean install
+    ```
+
 ## Quick Start
 
 ```java
