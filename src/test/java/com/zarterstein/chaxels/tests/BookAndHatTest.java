@@ -11,10 +11,7 @@ public class BookAndHatTest {
         Screen screen = renderer.getScreen();
         BookShape cat = (BookShape) new BookShape().shape();
         renderer.moveToBeginning();
-
         screen.getCanvas().reset(180, 54);
-        screen.removeAll();
-
         screen.add(cat, "book", 5, 1);
         renderer.printScreen();
     }
