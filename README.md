@@ -2,6 +2,8 @@
 
 Chaxels (Character Pixels) is a terminal-based rendering engine for Java that uses a character-based abstraction to create layered, colored, and styled console output. It allows for the creation of complex terminal interfaces and animations by treating characters as pixels with properties like RGB color, background color, and Z-index.
 
+<img width="500" alt="book and hat" src="https://github.com/user-attachments/assets/cb2e2512-532e-4724-8be4-95b4323c20ed" />
+
 ## Features
 
 - **Layered Rendering:** Support for multiple shapes and layers using Z-indexing.
@@ -74,6 +76,7 @@ public class MyTerminalApp {
     }
 }
 ```
+Also, please see the console tests: [Test](/src/test/java/com/zarterstein/chaxels/tests/ConsoleTest.java) and [Book And Hat Picture](/src/test/java/com/zarterstein/chaxels/tests/BookAndHatTest.java)
 
 ## Design Notes & Considerations
 
