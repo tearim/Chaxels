@@ -78,6 +78,13 @@ public class MyTerminalApp {
 ```
 Also, please see the console tests: [Test](/src/test/java/com/zarterstein/chaxels/tests/ConsoleTest.java) and [Book And Hat Picture](/src/test/java/com/zarterstein/chaxels/tests/BookAndHatTest.java)
 
+Check this out as well: 
+
+[Hatul Madan Test](/src/test/java/com/zarterstein/chaxels/tests/HatulMadanTest.java)
+
+<img width="500"  alt="image" src="https://github.com/user-attachments/assets/d6122db0-18cf-4bd1-80ef-04047a602766" />
+
+
 ## Design Notes & Considerations
 
 The Chaxels library was built with specific architectural decisions that users should be aware of:
