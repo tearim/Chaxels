@@ -12,10 +12,9 @@ public class BookShape extends Shape {
     }
 
     public Shape shape() {
-        // Setting a grid of 24x12 for a cozy sitting cat profile
+
         reset(103, 35);
 
-        // 1. The Character Map (The "ASCII" Art)
         applyText(new ArrayList<>(Arrays.asList(
                 "                                              @@@@@@@                                                  ",
                 "                                         M@@@@@@...@@@@@@@@@                                           ",
@@ -54,16 +53,15 @@ public class BookShape extends Shape {
                 "                                                                                                       "
 
         )));
-// Cap (deep academic tones)
+
         addColorToTable('@', new int[] {0, 35, 0}, new int[] {0, 0, 0});    // ordinary black :)
         addColorToTable('A', new int[] {25, 25, 60}, new int[] {0, 0, 60});    // very dark blue
         addColorToTable('B', new int[] {40, 40, 90}, new int[] {40, 40, 150});    // dark blue
         addColorToTable('C', new int[] {70, 70, 130}, new int[] {70, 70, 180});   // mid blue
         addColorToTable('D', new int[] {110, 110, 170}, new int[] {110, 150, 220}); // highlight blue
-        addBgColorToTable(' ', new int[] {255, 255, 255}); // highlight blue
+        addBgColorToTable(' ', new int[] {255, 255, 255});
 
 
-// Books (leather + paper)
         addColorToTable('1', new int[] {60, 20, 10}, new int[] {90, 30, 20});   // DARRK brown
         addColorToTable('E', new int[] {150, 90, 40}, new int[] {120, 70, 30});   // dark brown
         addColorToTable('F', new int[] {190, 130, 70}, new int[] {160, 100, 50});  // mid brown
@@ -74,15 +72,14 @@ public class BookShape extends Shape {
         addBgColorToTable('X', new int[] {0, 205, 70}); // GREENISH
         addColorToTable('U', new int[] {0, 60, 10}, new int[] {0, 90, 30});
 
-// Gold accents (tassel / details)
+
         addBgColorToTable('I', new int[] {180, 140, 20});
         addBgColorToTable('J', new int[] {220, 180, 40});
         addBgColorToTable('K', new int[] {255, 220, 90});
 
-// Shadow / depth
         addColorToTable('L', new int[] {50, 30, 20}, new int[] {30, 40, 80});
 
-        // 3. Applying Colors
+
         applyColorsFromTable(new ArrayList<>(Arrays.asList(
                 "                                              LLLL@@@                                                  ",
                 "                                         LLLL@@@DDD@@@@@@@@                                            ",
@@ -99,11 +96,11 @@ public class BookShape extends Shape {
                 "                             @@AA@DDD@AAAAAAAA@@@@@@@@@@@@@@AAA@@JJJJJ@AA@                             ",
                 "                             @@AA@DDD@AAAAAAAAAAAAAAA@@@@AAAAAA@@HJ@HJ@AA@                             ",
                 "                        1111@@@@A@DDD@AAAAAAAAAAAAAAA@@@@AAAAAA@@HJ@HJ@AA@@@@@@@@A                     ",
-                "                   11111111GGG11@@@@D@AAAAAAAAAAAAAAAA@@@AAAAAA@@HJ@HJ@@@@AAAAA@@@@@@@                 ",
-                "                 1111KGGGGGG1GGGGGGGA@@@@@@@@AAAAAAAAA@@@AAAAAA@@HJ@HJ@@@@AAAAAAA@@@@@                 ",
-                "                11FGGGG111KKGGGGGGGGGGGGGGGG@@@@@@@AAA@@@A@@@@@@@@@@@@AAAA111111GG11                   ",
-                "               111FFFF11FFFGGGGGGGGGGGGGGGGGGGGGGG@@@@@@@@@AAAAAAAA111111GGGGHHHHH11                   ",
-                "               111EEFF11FFFFFFFFKKGGGGGGGG111GGGGGGGGGGGGGGA11111GGGGHHHHHHHHHHHHH1@                   ",
+                "                   11111111GGG11@@@@D@AAAAAAAAAAAAAAAA@@@AAAAAA@@HJ@HJ@@@@GGGGGEE@@@@@                 ",
+                "                 1111KGGGGGG1GGGGGGGA@@@@@@@@AAAAAAAAA@@@AAAAAA@@HJ@HJ@@@@GGGGGG111@@@                 ",
+                "                11FGGGG111KKGGGGGGGGGGGGGGGG@@@@@@@AAA@@@A@@@@@@@@@@@@EEEE111111GG11                   ",
+                "               111FFFF11FFFGGGGGGGGGGGGGGGGGGGGGGG@@@@@@@@@EEEEEEEE111111GGGGHHHHH11                   ",
+                "               111EEFF11FFFFFFFFKKGGGGGGGG111GGGGGGGGGGGGGGE11111GGGGHHHHHHHHHHHHH1@                   ",
                 "                11EEEE11EEEEEFFFFFFFFFFKK11GGGGGGGGFFF11111GGHHHHHHHHHHHHHHHHHHHHH11A@                 ",
                 "               111111111EEEEEEEEEEEEFFFFF11FFFFFFFKK11GGHHHHHHHHHHHHHHHHHHHHHHHH1111@@                 ",
                 "             UUUYYYYY1111111EEEEEEEEEEEEE11EEEEEEEEE11HHHHHHHHHHHHHHHHHH11111EEHHHUU                   ",
