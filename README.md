@@ -32,7 +32,7 @@ Then, add the dependency:
 
 ```xml
 <dependency>
-    <groupId>com.github.Username</groupId>
+    <groupId>com.github.tearim</groupId>
     <artifactId>Chaxels</artifactId>
     <version>v0.10</version>
 </dependency>
